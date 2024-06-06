@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Imágenes</title>
+    <style>
+         body {
+            text-align: center; /* Alinea el contenido al centro */
+            font-family: Arial, sans-serif;
+          
+            color: grey;
+        }
+
+        h1 {
+            margin-top: 20px; /* Ajusta el espacio superior según sea necesario */
+        
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="css/pagina.css">
+    <link rel="stylesheet" type="text/css" href="css/grid10.css">
+    <link rel="stylesheet" type="text/css" href="css/lightbox.css">
+   
+</head>
+<body>
+ <div id="pagina"><!--Inicio de página-->
+    <header id="cabecera">
+    <img src="images/cabecera.png" />
+    </header>
+    <nav id="menu">
+        <ul>
+           <li><a href="index.html">Inicio</a></li>
+            <li><a href="Portafolio.html" title="Categoria">Portafolio</a></li>
+            <li><a href="sobre mi.html" title="Categoria">Sobre Mí</a></li>
+            <li><a href="contacto.html" title="contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <h1>RETRATO</h1>
+<!-- Primera Linea -->
+    <div class="gallery">
+         <article class="col2">
+            <a href="retrato/alternativo.jpg" data-lightbox="Retrato" data-title="Alternativo"><img src="retrato/alternativo.jpg"></a>
+        </article>
+         <article class="col2">
+            <a href="retrato/casual.jpg" data-lightbox="Retrato" data-title="Casual"><img src="retrato/casual.jpg"></a>
+        </article>
+        <article class="col2">
+            <a href="retrato/gala.jpg" data-lightbox="Retrato" data-title="Gala"><img src="retrato/gala.jpg"></a>
+        </article>
+        <article class="col2">
+            <a href="retrato/sport.jpg" data-lightbox="Retrato" data-title="Sport"><img src="retrato/sport.jpg"></a>
+        </article>
+        <article class="col2">
+            <a href="retrato/IMG_9865.jpg" data-lightbox="Retrato" data-title="Rockera"><img src="retrato/IMG_9865.jpg"></a>
+        </article>
+<article class="col5">
+            <a href="retrato/IMG_9868.jpg" data-lightbox="Retrato" data-title="Rockera"><img src="retrato/IMG_9868.jpg"></a>
+        </article>
+
+<article class="col5">
+            <a href="retrato/IMG_9870.jpg" data-lightbox="Retrato" data-title="Rockera"><img src="retrato/IMG_9870.jpg"></a>
+        </article>
+
+<article class="col5">
+            <a href="retrato/Trash the dress.jpg" data-lightbox="Retrato" data-title="Trash the dress"><img src="retrato/Trash the dress.jpg"></a>
+        </article>
+
+<article class="col5">
+            <a href="retrato/IMG_0245.jpg" data-lightbox="Retrato" data-title="Retrato"><img src="retrato/IMG_0245.jpg"></a>
+        </article>
+
+<article class="col10">
+            <a href="retrato/IMG_1812.jpg" data-lightbox="Retrato" data-title="Trash the dress"><img src="retrato/IMG_1812.jpg"></a>
+        </article>
+
+<article class="col10">
+            <a href="retrato/Trash the dress 2.jpg" data-lightbox="Retrato" data-title="Trash the dress"><img src="retrato/Trash the dress 2.jpg"></a>
+        </article>
+
+        <article class="col10">
+            <a href="retrato/IMG_0240.jpg" data-lightbox="Retrato" data-title="Trash the dress"><img src="retrato/IMG_0240.jpg"></a>
+        </article>
+    </div>
+       <hr class="fila">
+    </section><!--Cierre de contenidos-->
+    <footer id="pie"><!--Inicio de pie de página-->
+        
+    </footer><!--Cierre de pie de página-->
+
+    </div><!--Cierre de página-->
+<script type="text/javascript" src="js/lightbox.js"></script>
+<script type="text/javascript" src="js/lightbox-plus-jquery.js"></script>
+</body>
+</html>

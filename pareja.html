@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Imágenes</title>
+    <style>
+         body {
+            text-align: center; /* Alinea el contenido al centro */
+            font-family: Arial, sans-serif;
+          
+            color: grey;
+        }
+
+        h1 {
+            margin-top: 20px; /* Ajusta el espacio superior según sea necesario */
+        }
+
+        
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="css/pagina.css">
+    <link rel="stylesheet" type="text/css" href="css/grid10.css">
+    <link rel="stylesheet" type="text/css" href="css/lightbox.css">
+    
+</head>
+<body>
+ <div id="pagina"><!--Inicio de página-->
+    <header id="cabecera">
+    <img src="images/cabecera.png" />
+    </header>
+    <nav id="menu">
+        <ul>
+           <li><a href="index.html">Inicio</a></li>
+            <li><a href="Portafolio.html" title="Categoria">Portafolio</a></li>
+            <li><a href="sobre mi.html" title="Categoria">Sobre Mí</a></li>
+            <li><a href="contacto.html" title="contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <h1>SESIÓN DE PAREJA</h1>
+<!-- Primera Linea -->
+    <div class="gallery">
+         <article class="col10">
+            <a href="pareja/novios2-1.jpg" data-lightbox="pareja" data-title="Sesión de pareja"><img src="pareja/novios2-1.jpg"></a>
+        </article>
+         <article class="col10">
+            <a href="pareja/novios3-3.jpg" data-lightbox="pareja" data-title="Sesión de pareja"><img src="pareja/novios3-3.jpg"></a>
+        </article>
+        <article class="col5">
+            <a href="pareja/novios3-2.jpg" data-lightbox="pareja" data-title="Sesión de pareja"><img src="pareja/novios3-2.jpg"></a>
+        </article>
+        <article class="col5">
+            <a href="pareja/novios3-1.jpg" data-lightbox="pareja" data-title="Sesión de pareja"><img src="pareja/novios3-1.jpg"></a>
+        </article>
+        <article class="col10">
+            <a href="pareja/novios4.jpg" data-lightbox="pareja" data-title="Sesión de pareja"><img src="pareja/novios4.jpg"></a>
+        </article>
+
+    </div>
+       <hr class="fila">
+    </section><!--Cierre de contenidos-->
+    <footer id="pie"><!--Inicio de pie de página-->
+        
+    </footer><!--Cierre de pie de página-->
+
+    </div><!--Cierre de página-->
+<script type="text/javascript" src="js/lightbox.js"></script>
+<script type="text/javascript" src="js/lightbox-plus-jquery.js"></script>
+</body>
+</html>

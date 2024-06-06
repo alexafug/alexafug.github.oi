@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portafolio</title>
+    <style>
+         body {
+            text-align: center; /* Alinea el contenido al centro */
+            font-family: Arial, sans-serif;
+          
+            color: grey;
+        }
+
+        h2 {
+             font-family: "Bebas Neue", sans-serif;
+            margin-top: 20px; /* Ajusta el espacio superior según sea necesario */
+
+       
+    </style>
+    <link rel="stylesheet" type="text/css" href="css/pagina.css">
+    <link rel="stylesheet" type="text/css" href="css/grid10.css">
+    <link rel="stylesheet" type="text/css" href="css/lightbox.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Paytone+One&display=swap');
+    </style>
+
+    
+</head>
+<body>
+    <div id="pagina"><!--Inicio de página-->
+    <header id="cabecera">
+    <img src="images/cabecera.png"  />
+    </header>
+    <nav id="menu">
+        <ul>
+           <li><a href="index.html">Inicio</a></li>
+            <li><a href="Portafolio.html" title="Categoria">Portafolio</a></li>
+            <li><a href="sobre mi.html" title="Categoria">Sobre Mí</a></li>
+            <li><a href="contacto.html" title="contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <section id="contenidos"><!--Inicio de contenidos-->
+       </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="category-carousel">
+            <div class="category">
+                <article class="col10">
+                <img src="retrato/IMG_1812.jpg" alt="Retrato" onclick="window.location.href='retrato.html';">
+                <h2>Retrato</h2>
+                </article>
+            </div>
+
+<div class="category">
+    <article class="col10">
+                <img src="pareja/novios4.jpg" alt="pareja" onclick="window.location.href='pareja.html';">
+                <h2>Pareja</h2>
+                </article>
+            </div>
+
+ <div class="category">
+     <article class="col10">
+                <img src="familia/IMG_0288.jpg" alt="Familia" onclick="window.location.href='familia.html';">
+                <h2>Familia</h2>
+               </article>
+            </div>
+
+            <div class="category">
+    <article class="col10">
+                <img src="eventos/1-26.jpg" alt="HDR" onclick="window.location.href='eventos.html';">
+                <h2>Eventos</h2>
+                </article>
+            </div>
+
+            <div class="category">
+                <article class="col5">
+                <img src="montaje/ricardo1.jpg" alt="Montaje" onclick="window.location.href='montaje.html';">
+                <h2>Montaje</h2>
+              </article>
+          </div>
+
+               <div class="category">
+                <article class="col10">
+                <img src="calle/HDR4.jpg" alt="Eventos" onclick="window.location.href='calle.html';">
+                <h2>Calle</h2>
+                </article>
+            </div>
+
+            <div class="category">
+                 <article class="col10">
+                <img src="desnudo/1-8.jpg" alt="Desnudo" onclick="window.location.href='desnudo.html';">
+                <h2>Desnudo</h2>
+                </article>
+            </div>
+          
+            <div class="category">
+                <article class="col10">
+                <img src="naturaleza/_DSC9719.jpg" alt="Naturaleza" onclick="window.location.href='naturaleza.html';">
+                <h2>Naturaleza</h2>
+               </article> 
+            </div>
+
+            <div class="category">
+                <article class="col10">
+                <img src="alimentos y bebidas/postre 3.jpg" alt="Alimentos y Bebidas" onclick="window.location.href='alimentos.html';">
+                <h2>Alimentos y Bebidas</h2>
+               </article>
+            </div>
+            <div class="category">
+                <article class="col10">
+                <img src="imagenes/LIENZO6.jpg" alt="Calle" onclick="window.location.href='general.html';">
+                <h2>General</h2>
+              </article>
+            </div>
+           
+    
+            <div class="category">
+                <article class="col10">
+                <img src="set.jpg" alt="Video" onclick="window.location.href='video.html';">
+                <h2>Creación de set</h2>
+               </article>
+
+            </div>
+           
+       
+    </main>
+   <footer id="pie"><!--Inicio de pie de página-->
+        <div class="footer-content">
+            </div> 
+                </footer>
+
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Slick JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.category-carousel').slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                dots: true,
+                arrows: true
+            });
+        });
+    </script>
+</body>
+</html>
